@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PatternQuery
+Bundle-SymbolicName: org.kopl.jamopp.modisco.pattern.query;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: PatternQuery.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.gmt.modisco.infra.common.core,
+ org.eclipse.gmt.modisco.infra.query.core,
+ org.emftext.language.java;bundle-version="1.4.0"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,bin

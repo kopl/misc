@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<query:ModelQuerySet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:query="http://www.eclipse.org/MoDisco/infra/query/0.8.incubation" name="java.pattern">
+  <associatedMetamodels href="http://www.emftext.org/java#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/annotations#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/arrays#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/classifiers#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/commons#/"/>
+  <associatedMetamodels href="http://www.emftext.org/sdk/concretesyntax#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/containers#/"/>
+  <associatedMetamodels href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/expressions#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/generics#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/imports#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/instantiations#/"/>
+  <associatedMetamodels href="http://www.emftext.org/commons/jdt#/"/>
+  <associatedMetamodels href="http://www.emftext.org/commons/layout#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/literals#/"/>
+  <associatedMetamodels href="http://www.emftext.org/language/manifest#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/members#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/modifiers#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/operators#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/parameters#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/references#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/statements#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/types#/"/>
+  <associatedMetamodels href="http://www.emftext.org/java/variables#/"/>
+  <queries xsi:type="query:JavaModelQuery" name="isSingleton" implementationClassName="de.fzi.se.java.queries.pattern.IsSingleton">
+    <returnType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <scope href="http://www.emftext.org/java/classifiers#//Class"/>
+  </queries>
+</query:ModelQuerySet>
